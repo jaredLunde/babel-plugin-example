@@ -114,6 +114,7 @@
     "@commitlint/config-conventional": "latest",
     "@types/jest": "latest",
     "babel-jest": "latest",
+    "babel-plugin-tester": "^9.2.0",
     "cli-confirm": "latest",
     "cz-conventional-changelog": "latest",
     "eslint": "latest",
@@ -126,6 +127,10 @@
     "standard-version": "latest",
     "typescript": "latest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/helper-plugin-utils": "^7.10.4",
+    "@babel/types": "^7.11.0"
+  },
   "peerDependencies": {}
 }
